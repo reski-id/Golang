@@ -9,11 +9,19 @@ func main() {
 		}
 		fmt.Println("Perulangan ke ", i)
 	}
+
+	//1. Case loop-break[1] : Loop array bilangan break pada angka 3
+	var number = []int32{9, 8, 7, 6, 5, 4, 3, 2, 1}
+
+	for _, value := range number {
+		if value == 3 {
+			fmt.Println("break pada angka 3")
+			break
+		}
+		fmt.Println(value)
+	}
 }
 
-/** case [1]
-1. Bilangan Ganjil
-2. Bilangan Genap
-1. Bilangan prima
-2. Fibonaccy
+/** case loop-break[1]
+	1. Loop array bilangan break pada angka 3
 **/
