@@ -10,8 +10,8 @@ func main() {
 
 	sayGoodBye := getGoodBye
 
-	result := sayGoodBye("Eko")
+	result := sayGoodBye("Jhon")
 	fmt.Println(result)
-	fmt.Println(getGoodBye("Eko"))
+	fmt.Println(getGoodBye("Jhon"))
 
 }

@@ -13,12 +13,12 @@ func main() {
 		fmt.Println(slice[i])
 	}
 
-	for i, value := range slice {
+	for i, value := range slice { //for..range
 		fmt.Println("Index", i, "=", value)
 	}
 
-	person := make(map[string]string)
-	person["name"] = "Eko"
+	person := make(map[string]string) //bikin map
+	person["name"] = "Reski"
 	person["title"] = "Programmer"
 
 	for key, value := range person {
