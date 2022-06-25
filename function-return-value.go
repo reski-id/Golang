@@ -11,7 +11,7 @@ func getHello(name string) string {
 }
 
 func main() {
-	result := getHello("Eko")
+	result := getHello("Reski")
 	fmt.Println(result)
 
 	fmt.Println(getHello(""))
