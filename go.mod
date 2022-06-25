@@ -1,3 +1,3 @@
-module golang_fundamental
+module fundamentalgolang
 
 go 1.18

@@ -10,3 +10,10 @@ func main() {
 		fmt.Println("Perulangan ke ", i)
 	}
 }
+
+/** case [1]
+1. Bilangan Ganjil
+2. Bilangan Genap
+1. Bilangan prima
+2. Fibonaccy
+**/

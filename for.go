@@ -24,4 +24,22 @@ func main() {
 	for key, value := range person {
 		fmt.Println(key, "=", value)
 	}
+
+	var number = []int{51, 4, 5, 6, 24, 11, 22, 33}
+
+	//find ganjil genap case[1]
+	for _, num := range number {
+		if num%2 == 0 {
+			fmt.Printf("%v Genap\n", num)
+		} else {
+			fmt.Printf("%v Ganjil\n", num)
+		}
+	}
 }
+
+/** case [loop]
+1. Bilangan Ganjil Genap
+2. Bilangan Genap
+3. Bilangan prima
+4. Fibonaccy
+**/
