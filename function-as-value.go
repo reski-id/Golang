@@ -9,9 +9,9 @@ func getGoodBye(name string) string {
 func main() {
 
 	sayGoodBye := getGoodBye
-
 	result := sayGoodBye("Jhon")
 	fmt.Println(result)
-	fmt.Println(getGoodBye("Jhon"))
+
+	fmt.Println(getGoodBye("Reski"))
 
 }
